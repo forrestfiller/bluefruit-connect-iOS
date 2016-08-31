@@ -1,1 +1,0 @@
-../../../Moscapsule/Moscapsule/MosquittoCallbackBridge.h

@@ -1,22 +1,33 @@
 PODS:
-  - Moscapsule (0.5.0)
-  - OpenSSL-Universal (1.0.1.l)
+  - CocoaAsyncSocket (7.4.3):
+    - CocoaAsyncSocket/All (= 7.4.3)
+  - CocoaAsyncSocket/All (7.4.3):
+    - CocoaAsyncSocket/GCD
+    - CocoaAsyncSocket/RunLoop
+  - CocoaAsyncSocket/GCD (7.4.3)
+  - CocoaAsyncSocket/RunLoop (7.4.3)
+  - CocoaMQTT (1.0.7):
+    - CocoaAsyncSocket (~> 7.4.2)
+    - MSWeakTimer (~> 1.1.0)
+  - MSWeakTimer (1.1.0)
+  - SSZipArchive (1.4)
+  - UIColor+Hex (1.0.1):
+    - UIColor+Hex/NSColor (= 1.0.1)
+    - UIColor+Hex/UIColor (= 1.0.1)
+  - UIColor+Hex/UIColor (1.0.1)
 
 DEPENDENCIES:
-  - Moscapsule (from `https://github.com/flightonary/Moscapsule.git`)
-  - OpenSSL-Universal (~> 1.0.1.l)
-
-EXTERNAL SOURCES:
-  Moscapsule:
-    :git: https://github.com/flightonary/Moscapsule.git
-
-CHECKOUT OPTIONS:
-  Moscapsule:
-    :commit: 635d17f3ac42eeafd96c141b66790f86eedc6a71
-    :git: https://github.com/flightonary/Moscapsule.git
+  - CocoaMQTT (~> 1.0.0)
+  - SSZipArchive (~> 1.2)
+  - UIColor+Hex (~> 1.0.1)
 
 SPEC CHECKSUMS:
-  Moscapsule: eeddc784187b950005a7f90fdd66a13f50ada001
-  OpenSSL-Universal: eeb215fff0c6b65b6ba8f4262ef52d3baf2df2d7
+  CocoaAsyncSocket: a18c75dca4b08723628a0bacca6e94803d90be91
+  CocoaMQTT: 28160fd4f599285000b8f321d4f11a6fb0d48d01
+  MSWeakTimer: 9426150f933b80ed3acf3f6d228e4b61f0e303c8
+  SSZipArchive: bab21000ee11b7ba68d5880bcd87d80e4eb93e65
+  UIColor+Hex: 9fee91bb8e19f17dd40a79ae1e98949a6a84489d
 
-COCOAPODS: 0.38.0
+PODFILE CHECKSUM: eee27fcce241ad88e4c367c74679e7f84602dfa2
+
+COCOAPODS: 1.0.1

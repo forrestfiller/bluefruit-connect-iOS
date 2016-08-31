@@ -1,1 +1,0 @@
-../../../Moscapsule/mosquitto/lib/mqtt3_protocol.h
